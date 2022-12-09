@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "test",
+    "name": "stage-2",
     "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.cbg22.test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca5c80e3-f2c4-4abc-994d-5109a609d880"
+      }
     }
   }
 }
